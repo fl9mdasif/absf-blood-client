@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create a new axios instance with a base URL
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api', // Your backend server URL
+    baseURL: 'https://absf-bloodhub-server.vercel.app/api', // Your backend server URL
     headers: {
         'Content-Type': 'application/json',
     },
